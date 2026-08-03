@@ -32,3 +32,4 @@ def test_verify_css_locator(page:Page):
     # tag class attribute --> tag.class[attribute=value]
     #page.locator("input.search-box-text[value='Search store']").fill("T-Shirts")
     page.locator(".search-box-text[value='Search store']").fill("T-Shirts")
+    time.sleep(5)

@@ -1,5 +1,4 @@
 import time
-
 from playwright.sync_api import Page, expect
 
 def test_verify_pwlocator(page:Page):
@@ -29,3 +28,4 @@ def test_verify_pwlocator(page:Page):
     #6  page.get_by_title()
     expect(page.get_by_title("Home page link")).to_have_text("Home")
     time.sleep(5)
+
