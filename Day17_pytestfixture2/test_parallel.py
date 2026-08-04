@@ -1,6 +1,6 @@
 
 '''
-pre-requisites: intall a pytest plugin "pytest xdist" to run tests parallel
+pre-requisites: install a pytest plugin "pytest xdist" to run tests parallel
 pip install pytest-xdist
 
 command= pytest  Day17_pytestfixture2/test_parallel.py -v  -s -n 2
